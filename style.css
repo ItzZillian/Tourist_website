@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #43766C;
+    color: #F8FAE5;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #B19470;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    color: #76453B;
+    padding: 10px;
+    margin: 20px;
+    background-color: #B19470;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #43766C;
+    color: #F8FAE5;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style for the spots section */
+#spots {
+    background-color: #F8FAE5;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style for individual spot */
+.spot {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 350px;
+}
+
+.spot img {
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.spot h3 {
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+.spot p {
+    color: #666;
+}
+
+/* Style for the hotels section */
+#hotels {
+    background-color: #F8FAE5;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style for individual hotel */
+.hotel {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 350px;
+}
+
+.hotel img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 350px;
+    height: 200px;
+}
+
+.hotel h3 {
+    margin-top: 10px;
+    color: #FF9800; /* Orange color */
+}
+
+.hotel p {
+    color: #666;
+}
+
+
+/* Style for the booking section */
+#booking {
+    background-color: #F8FAE5;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style for the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form select,
+form input[type="date"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #2196F3; /* Blue color */
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0D47A1; /* Dark blue color */
+}
+
+
+/* Style for the guide section */
+#guide {
+    background-color: #F8FAE5;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style for individual tip */
+.tip {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tip h3 {
+    margin-top: 0;
+    color: #FF5722; /* Deep orange color */
+}
+
+.tip p {
+    color: #666;
+}
